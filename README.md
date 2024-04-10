@@ -6,9 +6,9 @@ while minimizing the requirements for the underlying object. The project
 arose from the need to treat interfaces to external objects as arrays, and
 the desire to have a fully-featured API to work with them. Yarra currently
 aims to provide this for *any* structure which can provide a minimal set of
-indexing operations over a container of numeric elements; it aims to make it 
-extremely easy to plug a container into this framework and get reasonable 
-performance, but support gradual optimization of the implementation for custom 
+indexing operations over a container of numeric elements; it aims to make it
+extremely easy to plug a container into this framework and get reasonable
+performance, but support gradual optimization of the implementation for custom
 containers.
 
 ## Goals
@@ -21,7 +21,7 @@ Some specific short-term goals are:
 - [ ] Create an `ArrayContainer` trait that uses a handful of common standard
   library traits to provide default implementations of operations necessary
   for array manipulation
-- [ ] Create a generic `Array` type that can wrap containers implementing an 
+- [ ] Create a generic `Array` type that can wrap containers implementing an
   `ArrayContainer` trait
 - [ ] Implement an API for user-friendly n-dimensional array manipulation on top
   of this `Array` type
