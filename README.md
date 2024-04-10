@@ -11,6 +11,11 @@ extremely easy to plug a container into this framework and get reasonable
 performance, but support gradual optimization of the implementation for custom
 containers.
 
+*Disclaimer: This is currently a personal project, and the person in question*
+*(me) makes no claims to intelligence. While I try to ensure correctness and*
+*robustness, I can very easily be wrong. Please verify expected behavior*
+*yourself if you really want to use this in production.*
+
 ## Goals
 
 Yarra is a *very* young, very immature library which is currently missing
