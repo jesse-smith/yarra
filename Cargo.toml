@@ -1,9 +1,20 @@
 [package]
 name = "yarra"
 version = "0.1.0"
+authors = ["Jesse Smith"]
 edition = "2021"
+description = "Generic, Extensible N-Dimensional Arrays in Rust"
+readme = "README.md"
+repository = "https://github.com/jesse-smith/yarra"
+license = "Apache-2.0 OR MIT"
+keywords = ["algebra", "array", "data-structure", "ndarray", "tensor"]
+categories = ["data-structures", "mathematics", "science"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 num-traits = "0.2.18"
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
