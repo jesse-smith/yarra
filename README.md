@@ -56,6 +56,6 @@ code that has passed CI tests for both general usage *and* easy of future
 development. I also hope to add fuzz testing to minimize bugs in corner cases
 I may have missed.
 
-## Why "Yarra"?\
+## Why "Yarra"?
 
 Ummm... spell it backwards. Thank you, I know, I'm very creative.
